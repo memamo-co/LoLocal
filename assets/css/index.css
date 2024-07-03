@@ -148,8 +148,9 @@ html {
 /* welcome */
 
 .shineWelcome {
+  width: auto;
   position: absolute;
-  top: 20px;
+  top: 60px;
   bottom: 20px;
   background-image: url(https://img1.picmix.com/output/stamp/normal/0/8/1/9/829180_6b2d0.gif);
   background-size: cover;
@@ -158,7 +159,7 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 5rem;
   margin: 10px 0;
   animation: fadeInUp 0.5s ease-in-out;
   animation-fill-mode: both; /* Stop from showing at start*/
@@ -169,12 +170,12 @@ html {
 
 .shineWhite {
   color: white;
+  padding: auto;
   -moz-background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6rem;
-  margin: 5px 0;
   animation: fadeInUp 0.5s ease-in-out 0.3s;
   animation-fill-mode: both; /* Stop from showing at start*/
 }

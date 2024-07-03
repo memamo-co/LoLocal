@@ -365,14 +365,14 @@ html {
 
 #menu-close {
   position: absolute;
+  margin-top: 50;
   bottom: 0;
-  left: 0;
   right: 0;
   cursor: pointer;
   text-align: right;
   color: #3b0ce2;
   background-color: #fff;
-  width: 100%;
+  width: 20%;
   height: 60px;
   text-align: center;
   display: inline-block;

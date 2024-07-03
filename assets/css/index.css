@@ -148,6 +148,9 @@ html {
 /* welcome */
 
 .shineWelcome {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
   background-image: url(https://img1.picmix.com/output/stamp/normal/0/8/1/9/829180_6b2d0.gif);
   background-size: cover;
   color: transparent;
@@ -171,7 +174,7 @@ html {
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6rem;
-  margin: 10px 0;
+  margin: 5px 0;
   animation: fadeInUp 0.5s ease-in-out 0.3s;
   animation-fill-mode: both; /* Stop from showing at start*/
 }
@@ -179,9 +182,8 @@ html {
   width: 90px;
 }
 .tagline {
-  margin: 10px 0;
   font-weight: 300;
-  animation: fadeInUp 0.5s ease-in-out 0.5s;
+  animation: fadeInUp 0.5s ease-in-out 0.3s;
   animation-fill-mode: both; /* Stop from showing at start*/
 }
 /* animation for shineWelcome and shineWhite and tagline */
@@ -248,7 +250,7 @@ html {
 }
 
 .menu .social-network {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .menu .social-network ul li {
@@ -274,7 +276,7 @@ html {
 
 .menu .copyright-text {
   position: relative;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .menu .copyright-text p {
@@ -283,7 +285,7 @@ html {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 13px;
 }
 
